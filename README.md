@@ -8,3 +8,5 @@ you see "leftov[fd]" you'll have simply leftov because there's just one, and you
 My libft ft_calloc calls ft_memset, and ft_strdup calls ft_strcpy, but i only had 7 spots for utils while i wanted 9, so i had to rewrite calloc to put memset in it, as well as rewrite strdup to incorporate strcpy.
 
 For later use, such as in pipex, the bonus version and MAX_FD macros is included into libft.h to directly use the already existing functions.
+
+Commented out are remains of a first clumsy attempt to write this which was way longer, had 5 functions and thus left only 5 spots for utils.
